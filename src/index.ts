@@ -32,7 +32,7 @@ interface SVGBuilderInternal extends SVGBuilderInstance {
 }
 
 type SVGBuilderConstructor = {
-  new (): SVGBuilderInternal;
+  new(): SVGBuilderInternal;
   prototype: SVGBuilderInternal;
 };
 
@@ -198,4 +198,4 @@ const svgBuilder = {
   },
 };
 
-export default svgBuilder;
+export { svgBuilder }
